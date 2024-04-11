@@ -12,7 +12,7 @@ Before you can use this repository, you must have the following installed on you
 Clone the project
 
 ```bash
-  git clone https://github.com/eduardolopez-gm/python-projects
+  git clone https://github.com/eduardolopez-gm/Testcafe-phishing
 ```
 
 Go to the project directory
@@ -25,4 +25,5 @@ Execute the test script
 
 ```bash
   npm run test
+  npm run test-report
 ```
