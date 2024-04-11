@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "testcafe chrome ./test/**.js"
+    "test": "testcafe chrome ./test/**.js",
+    "test-report": "testcafe chrome ./test/**.js --reporter html:reports/execution.html"
   },
   "author": "Eduardo Lopez",
   "license": "ISC",
   "dependencies": {
     "faker": "^5.5.3",
-    "testcafe": "^3.5.0"
+    "testcafe": "^3.5.0",
+    "testcafe-reporter-html": "^1.4.6"
   }
 }
